@@ -1,0 +1,23 @@
+<form name="formRC" ng-controller="releaseController" class="my-form form-horizontal" ng-submit="submit()">
+<div class="section">
+    <h3>{{headingTitle}}</h3>
+    <div class="form-group">
+
+    	 <label class="col-sm-3 control-label">Source Branch* :</label>
+    	 <div class="col-sm-9">
+    	 	<input type="text" name="rcSourceBranch" ng-model="rc.sourceBranch" class="form-control" required>
+    	 </div>
+    	 
+    	 <label class="col-sm-3 control-label">Nome* :</label>
+    	 <div class="col-sm-9">
+         	<input type="text" name="rcName" ng-model="rc.name" class="form-control" required>
+         </div>
+         
+         <label class="col-sm-3 control-label">Candidatas* :</label>
+         <div class="col-sm-9">
+         	<input type="text" name="rcReleases" ng-model="rc.releases" class="form-control" required>
+         </div>
+         <input type="submit" id="submit" value="Criar" class="btn btn-primary btn-lg" />
+    </div>
+</div>
+</form>

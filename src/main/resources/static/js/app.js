@@ -9,6 +9,10 @@ app.config(function($routeProvider){
             templateUrl: '/views/roles.html',
             controller: 'rolesController'
         })
+        .when('/createRelease',{
+            templateUrl: '/views/createRelease.html',
+            controller: 'releaseController'
+        })
         .otherwise(
             { redirectTo: '/'}
         );
