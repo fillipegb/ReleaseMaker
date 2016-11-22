@@ -1,4 +1,4 @@
-package br.com.chemtech;
+package br.com.fgb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
